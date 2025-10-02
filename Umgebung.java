@@ -11,6 +11,7 @@ public class Umgebung
   private int x;
 
   private int z;
+  private int h;
 
   private int i;
 
