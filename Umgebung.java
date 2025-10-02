@@ -9,6 +9,7 @@ public class Umgebung
 {
   // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
   private int x;
+  private int i;
 
   /**
    * Konstruktor für Objekte der Klasse Umgebung
