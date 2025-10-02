@@ -1,10 +1,10 @@
 
 /**
- * Write a description of class Planet here.
+ * Write a description of class Hintergund here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Planet
+public class Hintergund
 {
 }
