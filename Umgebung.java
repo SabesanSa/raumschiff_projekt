@@ -16,7 +16,7 @@ public class Umgebung
   public Umgebung()
   {
     // Instanzvariable initialisieren
-    x = 0;
+    x = 0;dadadada
   }
 
   /**
