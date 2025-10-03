@@ -12,7 +12,7 @@ public class Raumschiff
   GLKugel accessoire1;
   GLQuader flügel2;
   GLKugel accessoire2;
-  int x;
+  
    
  public Raumschiff (){
    körper = new GLKugel(0,0,0,50);
