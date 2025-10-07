@@ -9,12 +9,12 @@ public class Raumschiff
 {
   GLKugel körper;
   GLQuader flügel1;
-  GLKugel accessoire1;
   GLQuader flügel2;
+  GLKugel accessoire1;
   GLKugel accessoire2;
-  int x;
-  int y;
-   
+  
+ 
+  
  public Raumschiff (){
    körper = new GLKugel(0,0,0,50);
    körper.setzeSkalierung(3,1,3);
@@ -32,6 +32,8 @@ public class Raumschiff
    
    accessoire2 = new GLKugel(-100,0,100,25);
    accessoire2.setzeTextur("RaumschiffTextur.jpg");
+   
+   
       
  }
 }
