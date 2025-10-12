@@ -11,7 +11,9 @@ public class Umgebung
   GLLicht licht;
   GLLicht licht2;
   Raumschiff einRaumschiff;
+  Raumschiff zweiRaumschiff;
   Hintergrund einHintergrund;
+  Planet planet;
 
   public Umgebung(){
   licht = new GLLicht();
@@ -21,7 +23,8 @@ public class Umgebung
   //kamera.zeigeAchsen(true);
   
   einRaumschiff = new Raumschiff(); 
+  zweiRaumschiff = new Raumschiff();
   einHintergrund = new Hintergrund();
-    
-  }
+  planet = new Planet();
+}
 }
