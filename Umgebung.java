@@ -15,7 +15,7 @@ public class Umgebung
   licht = new GLLicht();
   
   kamera = new GLEntwicklerkamera(1920,1080);
-  kamera.zeigeAchsen(true);
+  //kamera.zeigeAchsen(true);
   
   einRaumschiff = new Raumschiff(); 
     
