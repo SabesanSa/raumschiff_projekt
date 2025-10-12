@@ -9,10 +9,10 @@ public class Raumschiff
 {
   GLKugel körper;
   GLKugel kuppel;
-  GLKugel accessoire1;
-  GLKugel accessoire2;
   GLQuader flügel1;
   GLQuader flügel2;
+  GLKugel accessoire1;
+  GLKugel accessoire2;
   //GLQuader vordererQuader1;
   //GLQuader vordererQuader2;
   GLQuader hinterteil;
@@ -22,8 +22,8 @@ public class Raumschiff
   GLKegel langesVorderteil2;
   GLTorus luke;
   GLTorus ring;
-   
- public Raumschiff (){
+  
+  public Raumschiff (){
    körper = new GLKugel(0,0,0,50);
    körper.setzeSkalierung(3,1,3);
    //körper.setzeTextur("RaumschiffTextur.jpg");
@@ -66,5 +66,15 @@ public class Raumschiff
    //vordererQuader1 = new GLQuader(-100,0,150,40,40,40);
    
    
+
+   accessoire1 = new GLKugel(100,0,100,25);
+   accessoire1.setzeTextur("RaumschiffTextur.jpg");
+   
+   accessoire2 = new GLKugel(-100,0,100,25);
+   accessoire2.setzeTextur("RaumschiffTextur.jpg");
+   
+   
+      
+
  }
 }
