@@ -13,8 +13,6 @@ public class Raumschiff
   GLQuader flügel2;
   GLKugel accessoire1;
   GLKugel accessoire2;
-  //GLQuader vordererQuader1;
-  //GLQuader vordererQuader2;
   GLQuader hinterteil;
   GLKegel langesHinterteil1;
   GLKegel langesHinterteil2;
@@ -68,8 +66,6 @@ public class Raumschiff
    
    kuppel = new GLKugel(0,40,0,50);
    kuppel.setzeTextur("Glas.jpg");
-   
-   //vordererQuader1 = new GLQuader(-100,0,150,40,40,40);
    
    accessoire1 = new GLKugel(100,0,100,25);
    accessoire1.setzeTextur(meineTextur);
