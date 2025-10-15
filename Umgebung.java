@@ -14,11 +14,10 @@ public class Umgebung
   Raumschiff zweiRaumschiff;
   Hintergrund einHintergrund;
   Planet planet;
-  GLTastatur tastatur;
+  
+
 
   public Umgebung(){
-  tastatur = new GLTastatur();
-  
   licht = new GLLicht();
   licht2 = new GLLicht(500,500,500);
   
@@ -26,12 +25,9 @@ public class Umgebung
   //kamera.zeigeAchsen(true);
   
   einRaumschiff = new Raumschiff(); 
-  zweiRaumschiff = new Raumschiff();
   einHintergrund = new Hintergrund();
   planet = new Planet();
-  this.starteLiveAbfrage();
-}
-private void starteLiveAbfrage(){
-
+  
+  
 }
 }
