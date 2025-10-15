@@ -21,6 +21,7 @@ public class Raumschiff
   GLTorus luke;
   GLTorus ring;
   GLTextur meineTextur;
+  //dasdasdsadas
   
   public Raumschiff (){
    GLTextur meineTextur = new GLTextur("RaumschiffTextur.jpg");
