@@ -15,6 +15,7 @@ public class Umgebung
   Hintergrund einHintergrund;
   Planet planet;
   GLTastatur tastatur;
+  miniRaumschiff miniRaumschiff;
 
   public Umgebung(){
   tastatur = new GLTastatur();
@@ -30,6 +31,7 @@ public class Umgebung
   einHintergrund = new Hintergrund();
   planet = new Planet();
   this.starteLiveAbfrage();
+  miniRaumschiff = new miniRaumschiff();
 }
 private void starteLiveAbfrage(){
 
