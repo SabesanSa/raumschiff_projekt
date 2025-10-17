@@ -15,6 +15,7 @@ public class Umgebung
   Hintergrund einHintergrund;
   Planet planet;
   
+  
 
 
   public Umgebung(){
