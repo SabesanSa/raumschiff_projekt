@@ -14,6 +14,7 @@ public class Umgebung
   Raumschiff zweiRaumschiff;
   Hintergrund einHintergrund;
   Planet planet;
+
 //<<<<<<< HEAD
   GLTastatur tastatur;
   miniRaumschiff miniRaumschiff;
@@ -21,6 +22,11 @@ public class Umgebung
   
 
 //>>>>>>> 04ad868c1d5d07ca356eb1d67f787357e1384a14
+
+  
+  
+
+
 
   public Umgebung(){
   licht = new GLLicht();
@@ -32,6 +38,7 @@ public class Umgebung
   einRaumschiff = new Raumschiff(); 
   einHintergrund = new Hintergrund();
   planet = new Planet();
+
 //<<<<<<< HEAD
   this.starteLiveAbfrage();
   miniRaumschiff = new miniRaumschiff();
@@ -42,5 +49,9 @@ private void starteLiveAbfrage(){
   
   
 //>>>>>>> 04ad868c1d5d07ca356eb1d67f787357e1384a14
+
+  
+  
+
 }
 }
